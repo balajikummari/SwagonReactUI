@@ -1,0 +1,23 @@
+.circles {
+    display: flex;
+  }
+  .circle-with-text {
+    background: darkgoldenrod;
+    justify-content: center;
+    align-items: center;
+    border-radius: 107%;
+    border-color: darkmagenta;
+    border-style: solid;
+    border-width: 22px;
+    text-align: center;
+    margin: 5px 11px;
+    font-size: 15px;
+    /* padding: inherit; */
+    display: flex;
+    height: 120px;
+    width: 120px;
+    color: #fff;
+  }
+  .multi-line-text {
+    font-size: 20px;
+  }

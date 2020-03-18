@@ -1,0 +1,128 @@
+
+
+.h2, h2 {
+    font-size: 2rem;
+    text-align:center ;
+    border:none;
+    color: white;
+    
+}
+
+hr {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 5px solid white;
+    width: 85px;
+    font-weight: 3px;
+    border-width: 3px;
+}
+
+.container {
+    width: 40%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: italic;
+    background-color: rgba(215, 153, 26);
+}
+
+.field {
+    display: flex;
+    flex-flow: column-reverse;
+    margin-bottom: 1em;
+  }
+
+  label, input {
+    transition: all 0.2s;
+    touch-action: manipulation;
+  }
+
+  label {
+    letter-spacing: 0.05em;
+    color: gainsboro;
+}
+
+  input:placeholder-shown + label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 2.125rem) scale(1.5);
+  }
+
+  ::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
+
+  input:focus::-webkit-input-placeholder {
+    opacity: 1;
+  }
+  input:not(:placeholder-shown) + label,
+
+  input:focus + label {
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+    border: transparent;
+  }
+
+  .form-control{
+    border-color: transparent;
+    background-color: transparent;
+    color: transparent;
+}
+.form-control :focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.form-group{
+    padding: 0.5em;
+    background: white;
+    border: transparent;
+}
+button, input {
+    overflow: visible;
+    border: transparent;
+}
+
+.sbutton{
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?23521171');
+    src: url('../font/fontello.eot?23521171#iefix') format('embedded-opentype'),
+         url('../font/fontello.woff2?23521171') format('woff2'),
+         url('../font/fontello.woff?23521171') format('woff'),
+         url('../font/fontello.ttf?23521171') format('truetype'),
+         url('../font/fontello.svg?23521171#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  input[type="password"] {
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	letter-spacing: 6px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #8800ff;
+    border-color: #8800ff;
+    border-radius: 31px;
+    padding: 13px;
+    width: 126px;
+    margin-bottom: 26px;
+}
