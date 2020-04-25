@@ -1,0 +1,44 @@
+
+.card{
+    border-radius: .50rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.column2{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-template-rows: 1fr; 
+
+    /* justify-content: space-evenly; */ 
+    margin-top: 40px;
+
+    background-image: url(./Bg.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.matchesSec{
+    grid-column: span 2/-1;
+    justify-self: start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 5%;
+}
+.matches{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.matchesHeading{
+    color: indigo;
+    text-align: justify;
+}
+
+#submitButton{
+    background-color:  indigo;
+    color: ivory;
+}

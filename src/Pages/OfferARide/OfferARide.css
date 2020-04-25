@@ -1,0 +1,28 @@
+.mycontainer {
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    grid-template-rows: auto 1fr;
+   
+    align-items: center; 
+    background-image: url(./Bg.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-template-rows: 1fr; 
+    margin-top: 40px;
+    background-image: url(./Bg.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

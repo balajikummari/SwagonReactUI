@@ -1,0 +1,30 @@
+.myLcontainer {
+  display: grid;
+  grid-template-columns: auto 25%;
+  grid-template-rows: auto auto;
+  justify-items: stretch;
+  align-items: center; 
+  }
+
+  .LogoItem{
+    grid-column-start: 1;
+    grid-row : 1;
+  }
+
+  .IntoItem{
+    grid-column-start: 1 ;
+    grid-row-start : 2   ;
+  }
+
+  .LoginItem{
+    display: grid;
+    align-content: center;
+    grid-column: 2/-1 ;
+    grid-row : 1/-1;
+    align-self: stretch;
+    background-color: indigo;
+  }
+
+  Login{
+     align-self: stretch;
+  }

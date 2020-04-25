@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+  }
+  
+.superContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.MainContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.BookedRidesContainer{
+    padding: 80px 10px;
+}
+
+.OfferedRidesContainer{
+    padding: 80px 10px;
+}
+
+.brhead{
+    padding: 10px 60px 10px 60px;
+    background: indigo;
+    color: white;
+    border-radius: 20px;
+}
+.orhead{
+    padding: 10px 60px 10px 60px;
+        background: goldenrod;
+        color: white;
+        border-radius: 20px;
+
+}
